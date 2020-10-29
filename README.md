@@ -1,2 +1,2 @@
-# java-basit_ornekler
-java ile ilgili basit örnekler
+# Java basit ornekler
+java ile ilgili basit örnekler kodlayıp buradan paylaşıyorum.
