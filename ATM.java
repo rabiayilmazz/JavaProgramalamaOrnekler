@@ -19,10 +19,10 @@
         if(islem.equals("q")){
             System.out.println("programdan çıkılıyor...");
         }
-        else if (islem.equals(1)){
+        else if (islem.equals("1")){
               System.out.println("Bakiyeniz : " + bakiye);
         }
-        else if (islem.equals(2)){
+        else if (islem.equals("2")){
             System.out.print("Çekmek istediğiniz tutar : ");
                 int tutar = scanner.nextInt();
                 scanner.nextLine();
@@ -36,7 +36,7 @@
                     System.out.println("Yeni bakiyeniz : " + bakiye);
                 }
         }                   
-        else if (islem.equals(3)){
+        else if (islem.equals("3")){
             System.out.print("Yatırmak istediğiniz tutar : ");
                 int tutar = scanner.nextInt();
                 scanner.nextLine();
