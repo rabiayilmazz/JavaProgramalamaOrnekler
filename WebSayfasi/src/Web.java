@@ -82,7 +82,9 @@ public class Web extends javax.swing.JFrame {
             d.browse(new URI(internet_adresi));
             
             /*say++;
-            System.out.println("butona "+ say + "kere tıklandı");*/
+            System.out.println("butona "+ say + "kere tıklandı"); 
+            // İlgili alan yorum satırı olmas-ktan çıkarıldığında butona kaç defa tıklandığı bilgisi elde edilebilir.
+            */
         } catch (URISyntaxException ex) {
             Logger.getLogger(Web.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
